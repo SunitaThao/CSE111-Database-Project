@@ -1,0 +1,12 @@
+UPDATE champion SET c_difficulty = 'high' WHERE c_name = 'Akali';
+UPDATE champion SET c_difficulty = 'moderate' WHERE c_name = 'Akali';
+UPDATE skins SET sk_name = 'Dark Star' WHERE c_name = 'Star Dark';
+UPDATE skins SET sk_name = 'Star Dark' WHERE c_name = 'Dark Star';
+UPDATE type SET t_name = 'Mall' WHERE c_name = 'Fighter';
+UPDATE type SET t_name = 'Fighter' WHERE c_name = 'Mall';
+UPDATE abilities SET a_passive = 'playing on computers and tablets' WHERE a_champ_name = 'Kennen';
+UPDATE abilities SET a_passive = 'Kennen stuns enemies he hits 3 times with his abilities.' WHERE a_champ_name = 'Kennen';
+UPDATE matchups SET bad_mu_name = 'Trundle' WHERE mu_champ_name = 'Riven';
+UPDATE matchups SET bad_mu_name = 'Quinn' WHERE mu_champ_name = 'Dark Star';
+UPDATE stats SET st_tier = 'K' WHERE c_name = 'S';
+UPDATE stats SET sk_name = 'S' WHERE c_name = 'K';

@@ -1,0 +1,9 @@
+delete from champion;
+delete from skins;
+delete from type;
+delete from abilites;
+delete from matchups;
+delete from stats;
+delete from champtype;
+delete from champmatchups;
+delete from champskins;
