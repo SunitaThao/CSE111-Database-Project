@@ -1,162 +1,162 @@
-1|Aatrox|Singed|K'Sante
-2|Ahri|Rumble|Azir
-3|Akali|Vex|Azir
-4|Akshan|Twisted Fate|Corki
-5|Alistar|Janna|Miss Fortune
-6|Amumu|Shaco|Miss Fortune
-7|Anivia|Swain|Ryze
-8|Annie|Xerath|Azir
-9|Aphelios|Seraphine|Kalista
-10|Ashe|Seraphine|Aphelios
-11|Aurelion Sol|Corki|Ryze
-12|Azir|Rumble|Orianna
-13|Bard|Vel'Koz|Swain
-14|Bel'Veth|Elise|Shyvana
-15|Blitzcrank|Rell|Miss Fortune
-16|Brand|Maokai|Miss Fortune
-17|Braum|Zilean|Miss Fortune
-18|Caitlyn|Seraphine|Aphelios
-19|Camille|Cho'Gath|K'Sante
-20|Cassiopeia|Vel'Koz|Corki
-21|Cho'Gath|Olaf|K'Sante
-22|Corki|Akshan|Heimerdinger
-23|Darius|Yorick|Yasuo
-24|Diana|Taliyah|Pantheon
-25|Dr. Mundo|Warwick|Kayle
-26|Draven|Nilah|Aphelios
-27|Ekko|Elise|Viego
-28|Elise|Amumu|Trundle
-29|Evelyn|Rengar|Karthus
-30|Ezreal|Nilah|Aphelios
-31|Fiddlesticks|Olaf|Shyvana
-32|Fiora|Poppy|K'Sante
-33|Fizz|Ziggs|Xerath
-34|Galio|Xerath|Azir
-35|Gangplank|Olaf|K'Sante
-36|Garen|Quinn|K'Sante
-37|Gnar|Akshan|Volibear
-38|Gragas|Volibear|Akshan
-39|Graves|Rammus|Trundle
-40|Gwen|Warwick|Sylas
-41|Hecarim|Mordekaiser|Taliyah
-42|Heimerdinger|Sona|Braum
-43|Illaoi|Kayle|K'Sante
-44|Irelia|Anivia|Ryze
-45|Ivern|Maokai|Poppy
-46|Janna|Soraka|Alistar
-47|Jarvan|Fiddlesticks|Trundle
-48|Jax|Singed|Yasuo
-49|Jayce|Rengar|Akali
-50|Jhin|Seraphine|Aphelios
-51|Jinx|Seraphine|Aphelios
-52|K'Sante|Garen|Yasuo
-53|Kai'Sa|Nilah|Aphelios
-54|Kalista|Kog'Maw|Aphelios
-55|Karma|Taric|Miss Fortune
-56|Karthus|Evelyn|Poppy
-57|Kassadin|Tristana|Corki
-58|Katarina|Tristana|Ryze
-59|Kayle|Pantheon|K'Sante
-60|Kayn|Fiddlesticks|Pantheon
-61|Kennen|Warwick|Vayne
-62|Kha'Zix|Rengar|Trundle
-63|Kindred|Shaco|Zed
-64|Kled|Pantheon|Vladimir
-65|Kog'Maw|Seraphine|Kalista
-66|Leblanc|Malzahar|Azir
-67|Lee Sin|Fiddlesticks|Zed
-68|Leona|Sona|Pantheon
-69|Lillia|Rek'Sai|Warwick
-70|Lissandra|Cassiopeia|Orianna
-71|Lucian|Seraphine|Aphelios
-72|Lulu|Sona|Miss Fortune
-73|Lux|Blitzcrank|Miss Fortune
-74|Malphite|Shen|Kennen
-75|Malzahar|Talon|Leblanc
-76|Maokai|Janna|Miss Fortune
-77|Master Yi|Fiddlesticks|Zed
-78|Miss Fortune|Seraphine|Aphelios
-79|Mordekaiser|Singed|K'Sante
-80|Morgana|Zyra|Braum
-81|Nami|Maokai|Miss Fortune
-82|Nasus|Kled|Vayne
-83|Nautilus|Taric|Miss Fortune
-84|Neeko|Vel'Koz|Ryze
-85|Nidalee|Poppy|Viego
-86|Nilah|Seraphine|Twitch
-87|Nocturne|Udyr|Poppy
-88|Nunu & Willump|Tank|jungle
-89|Olaf|Vayne|Cho'Gath
-90|Orianna|Ziggs|Corki
-91|Ornn|Warwick|Malphite
-92|Pantheon|Fighter|mid
-93|Poppy|Rek'Sai|Nidalee
-94|Pyke|Rell|Miss Fortune
-95|Qiyana|Rumble|Orianna
-96|Quinn|Olaf|Warwick
-97|Rakan|Maokai|Yuumi
-98|Rammus|Mordekaiser|Zed
-99|Rek'Sai|Karthus|Poppy
-100|Rell|Zyra|Miss Fortune
-101|Renata Glasc|Heimerdinger|Pantheon
-102|Renekton|Rengar|Akali
-103|Rengar|Pantheon|Talon
-104|Riven|Quinn|K'Sante
-105|Rumble|Maokai|Vayne
-106|Ryze|Vel'Koz|Azir
-107|Samira|Nilah|Aphelios
-108|Sejuani|Volibear|Lee Sin
-109|Senna|Ve'Koz|Miss Fortune
-110|Seraphine|Zilean|Miss Fortune
-111|Sett|Olaf|Yasuo
-112|Shaco|Karthus|Trundle
-113|Shen|Illaoi|Akali
-114|Shyvana|Bel'Veth|Poppy
-115|Singed|Illaoi|Gwen
-116|Sion|Warwick|Malphite
-117|Sivir|Seraphine|Nilah
-118|Skarner|Mordekaiser|Taliyah
-119|Sona|Blitzcrank|Miss Fortune
-120|Soraka|Maokai|Miss Fortune
-121|Swain|Bard|Miss Fortune
-122|Sylas|Heimerdinger|Azir
-123|Syndra|Katarina|Azir
-124|Tahm Kench|Yorick|Vladimir
-125|Taliyah|Volibear|Diana
-126|Talon|Sett|Orianna
-127|Taric|Janna|Nautilus
-128|Teemo|Wukong|Vayne
-129|Thresh|Vel'Koz|Miss Fortune
-130|Tristana|Nilah|Aphelios
-131|Trundle|Elise|Karthus
-132|Tryndamere|Teemo|Yasuo
-133|Twisted Fate|Cassiopeia|Corki
-134|Twitch|Nilah|Aphelios
-135|Udyr|Wukong|Pantheon
-136|Urgot|Wukong|Gragas
-137|Varus|Seraphine|Aphelios
-138|Vayne|Tristana|Kalista
-139|Veigar|Xerath|Ryze
-140|Vel'Koz|Shaco|Miss Fortune
-141|Vex|Swain|Varus
-142|Vi|Volibear|Lee Sin
-143|Viego|Elise|Poppy
-144|Viktor|Vel'Koz|Varus
-145|Vladimir|Malzahar|Azir
-146|Volibear|Nunu & Willump|Taliyah
-147|Warwick|Lillia|Zed
-148|Wukong|Amumu|Trundle
-149|Xayah|Jhin|Aphelios
-150|Xerath|Rell|Miss Fortune
-151|Xin Zhao|Jarvan|Poppy
-152|Yasuo|Pantheon|Varus
-153|Yone|Pantheon|Azir
-154|Yorick|Irelia|K'Sante
-155|Yuumi|Rell|Miss Fortune
-156|Zac|Nocturne|Viego
-157|Zed|Rumble|Ryze
-158|Zeri|Tristana|Seraphine
-159|Ziggs|Irelia|Swain
-160|Zilean|Rell|Braum
-161|Zoe|Malzahar|Corki
-162|Zyra|Twitch|Miss Fortune
+Aatrox|Singed|K'Sante
+Ahri|Rumble|Azir
+Akali|Vex|Azir
+Akshan|Twisted Fate|Corki
+Alistar|Janna|Miss Fortune
+Amumu|Shaco|Miss Fortune
+Anivia|Swain|Ryze
+Annie|Xerath|Azir
+Aphelios|Seraphine|Kalista
+Ashe|Seraphine|Aphelios
+Aurelion Sol|Corki|Ryze
+Azir|Rumble|Orianna
+Bard|Vel'Koz|Swain
+Bel'Veth|Elise|Shyvana
+Blitzcrank|Rell|Miss Fortune
+Brand|Maokai|Miss Fortune
+Braum|Zilean|Miss Fortune
+Caitlyn|Seraphine|Aphelios
+Camille|Cho'Gath|K'Sante
+Cassiopeia|Vel'Koz|Corki
+Cho'Gath|Olaf|K'Sante
+Corki|Akshan|Heimerdinger
+Darius|Yorick|Yasuo
+Diana|Taliyah|Pantheon
+Dr. Mundo|Warwick|Kayle
+Draven|Nilah|Aphelios
+Ekko|Elise|Viego
+Elise|Amumu|Trundle
+Evelyn|Rengar|Karthus
+Ezreal|Nilah|Aphelios
+Fiddlesticks|Olaf|Shyvana
+Fiora|Poppy|K'Sante
+Fizz|Ziggs|Xerath
+Galio|Xerath|Azir
+Gangplank|Olaf|K'Sante
+Garen|Quinn|K'Sante
+Gnar|Akshan|Volibear
+Gragas|Volibear|Akshan
+Graves|Rammus|Trundle
+Gwen|Warwick|Sylas
+Hecarim|Mordekaiser|Taliyah
+Heimerdinger|Sona|Braum
+Illaoi|Kayle|K'Sante
+Irelia|Anivia|Ryze
+Ivern|Maokai|Poppy
+Janna|Soraka|Alistar
+Jarvan|Fiddlesticks|Trundle
+Jax|Singed|Yasuo
+Jayce|Rengar|Akali
+Jhin|Seraphine|Aphelios
+Jinx|Seraphine|Aphelios
+K'Sante|Garen|Yasuo
+Kai'Sa|Nilah|Aphelios
+Kalista|Kog'Maw|Aphelios
+Karma|Taric|Miss Fortune
+Karthus|Evelyn|Poppy
+Kassadin|Tristana|Corki
+Katarina|Tristana|Ryze
+Kayle|Pantheon|K'Sante
+Kayn|Fiddlesticks|Pantheon
+Kennen|Warwick|Vayne
+Kha'Zix|Rengar|Trundle
+Kindred|Shaco|Zed
+Kled|Pantheon|Vladimir
+Kog'Maw|Seraphine|Kalista
+Leblanc|Malzahar|Azir
+Lee Sin|Fiddlesticks|Zed
+Leona|Sona|Pantheon
+Lillia|Rek'Sai|Warwick
+Lissandra|Cassiopeia|Orianna
+Lucian|Seraphine|Aphelios
+Lulu|Sona|Miss Fortune
+Lux|Blitzcrank|Miss Fortune
+Malphite|Shen|Kennen
+Malzahar|Talon|Leblanc
+Maokai|Janna|Miss Fortune
+Master Yi|Fiddlesticks|Zed
+Miss Fortune|Seraphine|Aphelios
+Mordekaiser|Singed|K'Sante
+Morgana|Zyra|Braum
+Nami|Maokai|Miss Fortune
+Nasus|Kled|Vayne
+Nautilus|Taric|Miss Fortune
+Neeko|Vel'Koz|Ryze
+Nidalee|Poppy|Viego
+Nilah|Seraphine|Twitch
+Nocturne|Udyr|Poppy
+Nunu & Willump|Tank|jungle
+Olaf|Vayne|Cho'Gath
+Orianna|Ziggs|Corki
+Ornn|Warwick|Malphite
+Pantheon|Fighter|mid
+Poppy|Rek'Sai|Nidalee
+Pyke|Rell|Miss Fortune
+Qiyana|Rumble|Orianna
+Quinn|Olaf|Warwick
+Rakan|Maokai|Yuumi
+Rammus|Mordekaiser|Zed
+Rek'Sai|Karthus|Poppy
+Rell|Zyra|Miss Fortune
+Renata Glasc|Heimerdinger|Pantheon
+Renekton|Rengar|Akali
+Rengar|Pantheon|Talon
+Riven|Quinn|K'Sante
+Rumble|Maokai|Vayne
+Ryze|Vel'Koz|Azir
+Samira|Nilah|Aphelios
+Sejuani|Volibear|Lee Sin
+Senna|Ve'Koz|Miss Fortune
+Seraphine|Zilean|Miss Fortune
+Sett|Olaf|Yasuo
+Shaco|Karthus|Trundle
+Shen|Illaoi|Akali
+Shyvana|Bel'Veth|Poppy
+Singed|Illaoi|Gwen
+Sion|Warwick|Malphite
+Sivir|Seraphine|Nilah
+Skarner|Mordekaiser|Taliyah
+Sona|Blitzcrank|Miss Fortune
+Soraka|Maokai|Miss Fortune
+Swain|Bard|Miss Fortune
+Sylas|Heimerdinger|Azir
+Syndra|Katarina|Azir
+Tahm Kench|Yorick|Vladimir
+Taliyah|Volibear|Diana
+Talon|Sett|Orianna
+Taric|Janna|Nautilus
+Teemo|Wukong|Vayne
+Thresh|Vel'Koz|Miss Fortune
+Tristana|Nilah|Aphelios
+Trundle|Elise|Karthus
+Tryndamere|Teemo|Yasuo
+Twisted Fate|Cassiopeia|Corki
+Twitch|Nilah|Aphelios
+Udyr|Wukong|Pantheon
+Urgot|Wukong|Gragas
+Varus|Seraphine|Aphelios
+Vayne|Tristana|Kalista
+Veigar|Xerath|Ryze
+Vel'Koz|Shaco|Miss Fortune
+Vex|Swain|Varus
+Vi|Volibear|Lee Sin
+Viego|Elise|Poppy
+Viktor|Vel'Koz|Varus
+Vladimir|Malzahar|Azir
+Volibear|Nunu & Willump|Taliyah
+Warwick|Lillia|Zed
+Wukong|Amumu|Trundle
+Xayah|Jhin|Aphelios
+Xerath|Rell|Miss Fortune
+Xin Zhao|Jarvan|Poppy
+Yasuo|Pantheon|Varus
+Yone|Pantheon|Azir
+Yorick|Irelia|K'Sante
+Yuumi|Rell|Miss Fortune
+Zac|Nocturne|Viego
+Zed|Rumble|Ryze
+Zeri|Tristana|Seraphine
+Ziggs|Irelia|Swain
+Zilean|Rell|Braum
+Zoe|Malzahar|Corki
+Zyra|Twitch|Miss Fortune

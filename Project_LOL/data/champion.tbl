@@ -1,162 +1,162 @@
-1|Aatrox|The Darkin Blade|moderate
-2|Ahri|The Nine-Tailed Fox|moderate
-3|Akali|The Rogue Assassin|moderate
-4|Akshan|The Rogue Sentinel|low
-5|Alistar|The Minotaur|moderate
-6|Amumu|The Sad Mummy|low
-7|Anivia|The Cryophoenix|high
-8|Annie|The Dark Child|moderate
-9|Aphelios|The Weapon Of The Faithful|high
-10|Ashe|The Frost Archer|moderate
-11|Aurelion Sol|The Star Forger|moderate
-12|Azir|The Emperor Of The Sands|high
-13|Bard|The Wandering Caretaker|high
-14|Bel'Veth|The Empress Of The Void|high
-15|Blitzcrank|The Great Steam Golem|moderate
-16|Brand|The Burning Vengeance|moderate
-17|Braum|The Heart Of The Freljord|low
-18|Caitlyn|The Sheriff Of Piltover|moderate
-19|Camille|The Steel Shadow|moderate
-20|Cassiopeia|The Serpent's Embrace|high
-21|Cho'Gath|The Terror Of The Void|moderate
-22|Corki|The Daring Bombardier|moderate
-23|Darius|The Hand Of Noxus|low
-24|Diana|Scorn Of The Moon|moderate
-25|Dr. Mundo|The Madman Of Zaun|moderate
-26|Draven|The Glorious Executioner|high
-27|Ekko|The Boy Who Shattered Time|high
-28|Elise|The Spider Queen|high
-29|Evelyn|Agony's Embrace|high
-30|Ezreal|The Prodigal Explorer|moderate
-31|Fiddlesticks|The Ancient Fear|high
-32|Fiora|The Grand Duelist|low
-33|Fizz|The Tidal Trickster|moderate
-34|Galio|The Colossus|moderate
-35|Gangplank|The Saltwater Scourge|high
-36|Garen|The Might Of Demacia|moderate
-37|Gnar|The Missing Link|high
-38|Gragas|The Rabble Rouser|moderate
-39|Graves|The Outlaw|low
-40|Gwen|The Hallowed Seamstress|moderate
-41|Hecarim|The Shadow Of War|moderate
-42|Heimerdinger|The Revered Inventor|high
-43|Illaoi|The Kraken Priestess|moderate
-44|Irelia|The Blade Dancer|moderate
-45|Ivern|The Green Father|moderate
-46|Janna|The Storm's Fury|moderate
-47|Jarvan|The Exemplar Of Demacia|moderate
-48|Jax|Grandmaster At Arms|moderate
-49|Jayce|The Defender Of Tomorrow|moderate
-50|Jhin|The Virtuoso|moderate
-51|Jinx|The Loose Cannon|moderate
-52|K'Sante|The Pride Of Nazumah|high
-53|Kai'Sa|Daughter Of The Void|moderate
-54|Kalista|The Spear Of Vengeance|moderate
-55|Karma|The Enlightened One|moderate
-56|Karthus|The Deathsinger|moderate
-57|Kassadin|The Void Walker|high
-58|Katarina|The Sinister Blade|high
-59|Kayle|The Righteous|moderate
-60|Kayn|The Shadow Reaper|high
-61|Kennen|The Heart Of The Tempest|moderate
-62|Kha'Zix|The Voidreaver|moderate
-63|Kindred|The Eternal Hunters|moderate
-64|Kled|The Cantankerous Cavalier|moderate
-65|Kog'Maw|The Mouth Of The Abyss|moderate
-66|Leblanc|The Deceiver|high
-67|Lee Sin|The Blind Monk|moderate
-68|Leona|The Radiant Dawn|moderate
-69|Lillia|The Bashful Bloom|high
-70|Lissandra|The Ice Witch|moderate
-71|Lucian|The Purifier|moderate
-72|Lulu|The Fae Sorceress|moderate
-73|Lux|The Lady Of Luminosity|moderate
-74|Malphite|Shard Of The Monolith|low
-75|Malzahar|The Prophet Of The Void|moderate
-76|Maokai|The Twisted Treant|low
-77|Master Yi|The Wuju Bladesman|moderate
-78|Miss Fortune|The Bounty Hunter|low
-79|Mordekaiser|The Iron Revenant|moderate
-80|Morgana|The Fallen|low
-81|Nami|The Tidecaller|moderate
-82|Nasus|The Curator Of The Sands|moderate
-83|Nautilus|The Titan Of The Depths|moderate
-84|Neeko|The Curious Chameleon|moderate
-85|Nidalee|The Bestial Huntress|high
-86|Nilah|The Joy Unbound|high
-87|Nocturne|The Eternal Nightmare|moderate
-88|Nunu & Willump|The Boy And His Yeti|moderate
-89|Olaf|The Berserker|low
-90|Orianna|The Lady Of Clockwork|moderate
-91|Ornn|The Fire Below The Mountain|moderate
-92|Pantheon|The Unbreakable Spear|moderate
-93|Poppy|Keeper Of The Hammer|moderate
-94|Pyke|The Bloodharbor Ripper|moderate
-95|Qiyana|Empress Of The Elements|high
-96|Quinn|Demacia's Wings|moderate
-97|Rakan|The Charmer|moderate
-98|Rammus|The Armordillo|moderate
-99|Rek'Sai|The Void Burrower|low
-100|Rell|The Iron Maiden|low
-101|Renata Glasc|The Chem-Baroness|high
-102|Renekton|The Butcher Of The Sands|low
-103|Rengar|The Pridestalker|high
-104|Riven|The Exile|high
-105|Rumble|The Mechanized Menace|high
-106|Ryze|The Rune Mage|moderate
-107|Samira|The Desert Rose|moderate
-108|Sejuani|Fury Of The North|moderate
-109|Senna|The Redeemer|moderate
-110|Seraphine|The Starry-Eyed Songstress|low
-111|Sett|The Boss|low
-112|Shaco|The Demon Jester|high
-113|Shen|The Eye Of Twilight|moderate
-114|Shyvana|The Half-Dragon|moderate
-115|Singed|The Mad Chemist|moderate
-116|Sion|The Undead Juggernaut|moderate
-117|Sivir|The Battle Mistress|moderate
-118|Skarner|The Crystal Vanguard|moderate
-119|Sona|Maven Of The Strings|moderate
-120|Soraka|The Starchild|low
-121|Swain|The Noxian Grand General|high
-122|Sylas|The Unshackled|moderate
-123|Syndra|The Dark Sovereign|high
-124|Tahm Kench|The River King|moderate
-125|Taliyah|The Stoneweaver|moderate
-126|Talon|The Blade's Shadow|moderate
-127|Taric|The Shield Of Valoran|low
-128|Teemo|The Swift Scout|moderate
-129|Thresh|The Chain Warden|moderate
-130|Tristana|The Yordle Gunner|moderate
-131|Trundle|The Troll King|moderate
-132|Tryndamere|The Barbarian King|moderate
-133|Twisted Fate|The Card Master|high
-134|Twitch|The Plague Rat|moderate
-135|Udyr|The Spirit Walker|moderate
-136|Urgot|The Dreadnought|high
-137|Varus|The Arrow Of Retribution|low
-138|Vayne|The Night Hunter|high
-139|Veigar|The Tiny Master Of Evil|moderate
-140|Vel'Koz|The Eye Of The Void|high
-141|Vex|The Gloomist|low
-142|Vi|The Piltover Enforcer|moderate
-143|Viego|The Ruined King|moderate
-144|Viktor|The Machine Herald|high
-145|Vladimir|The Crimson Reaper|moderate
-146|Volibear|The Relentless Storm|low
-147|Warwick|The Uncaged Wrath Of Zaun|low
-148|Wukong|The Monkey King|low
-149|Xayah|The Rebel|moderate
-150|Xerath|The Magus Ascendant|high
-151|Xin Zhao|The Seneschal Of Demacia|low
-152|Yasuo|The Unforgiven|high
-153|Yone|The Unforgotten|high
-154|Yorick|Shepherd Of Souls|moderate
-155|Yuumi|The Magical Cat|low
-156|Zac|The Secret Weapon|high
-157|Zed|The Master Of Shadows|moderate
-158|Zeri|The Spark Of Zaun|moderate
-159|Ziggs|The Hexplosives Expert|moderate
-160|Zilean|The Chronokeeper|moderate
-161|Zoe|The Aspect Of Twilight|moderate
-162|Zyra|Rise Of The Thorns|moderate
+Aatrox|The Darkin Blade|moderate
+Ahri|The Nine-Tailed Fox|moderate
+Akali|The Rogue Assassin|moderate
+Akshan|The Rogue Sentinel|low
+Alistar|The Minotaur|moderate
+Amumu|The Sad Mummy|low
+Anivia|The Cryophoenix|high
+Annie|The Dark Child|moderate
+Aphelios|The Weapon Of The Faithful|high
+Ashe|The Frost Archer|moderate
+Aurelion Sol|The Star Forger|moderate
+Azir|The Emperor Of The Sands|high
+Bard|The Wandering Caretaker|high
+Bel'Veth|The Empress Of The Void|high
+Blitzcrank|The Great Steam Golem|moderate
+Brand|The Burning Vengeance|moderate
+Braum|The Heart Of The Freljord|low
+Caitlyn|The Sheriff Of Piltover|moderate
+Camille|The Steel Shadow|moderate
+Cassiopeia|The Serpent's Embrace|high
+Cho'Gath|The Terror Of The Void|moderate
+Corki|The Daring Bombardier|moderate
+Darius|The Hand Of Noxus|low
+Diana|Scorn Of The Moon|moderate
+Dr. Mundo|The Madman Of Zaun|moderate
+Draven|The Glorious Executioner|high
+Ekko|The Boy Who Shattered Time|high
+Elise|The Spider Queen|high
+Evelyn|Agony's Embrace|high
+Ezreal|The Prodigal Explorer|moderate
+Fiddlesticks|The Ancient Fear|high
+Fiora|The Grand Duelist|low
+Fizz|The Tidal Trickster|moderate
+Galio|The Colossus|moderate
+Gangplank|The Saltwater Scourge|high
+Garen|The Might Of Demacia|moderate
+Gnar|The Missing Link|high
+Gragas|The Rabble Rouser|moderate
+Graves|The Outlaw|low
+Gwen|The Hallowed Seamstress|moderate
+Hecarim|The Shadow Of War|moderate
+Heimerdinger|The Revered Inventor|high
+Illaoi|The Kraken Priestess|moderate
+Irelia|The Blade Dancer|moderate
+Ivern|The Green Father|moderate
+Janna|The Storm's Fury|moderate
+Jarvan|The Exemplar Of Demacia|moderate
+Jax|Grandmaster At Arms|moderate
+Jayce|The Defender Of Tomorrow|moderate
+Jhin|The Virtuoso|moderate
+Jinx|The Loose Cannon|moderate
+K'Sante|The Pride Of Nazumah|high
+Kai'Sa|Daughter Of The Void|moderate
+Kalista|The Spear Of Vengeance|moderate
+Karma|The Enlightened One|moderate
+Karthus|The Deathsinger|moderate
+Kassadin|The Void Walker|high
+Katarina|The Sinister Blade|high
+Kayle|The Righteous|moderate
+Kayn|The Shadow Reaper|high
+Kennen|The Heart Of The Tempest|moderate
+Kha'Zix|The Voidreaver|moderate
+Kindred|The Eternal Hunters|moderate
+Kled|The Cantankerous Cavalier|moderate
+Kog'Maw|The Mouth Of The Abyss|moderate
+Leblanc|The Deceiver|high
+Lee Sin|The Blind Monk|moderate
+Leona|The Radiant Dawn|moderate
+Lillia|The Bashful Bloom|high
+Lissandra|The Ice Witch|moderate
+Lucian|The Purifier|moderate
+Lulu|The Fae Sorceress|moderate
+Lux|The Lady Of Luminosity|moderate
+Malphite|Shard Of The Monolith|low
+Malzahar|The Prophet Of The Void|moderate
+Maokai|The Twisted Treant|low
+Master Yi|The Wuju Bladesman|moderate
+Miss Fortune|The Bounty Hunter|low
+Mordekaiser|The Iron Revenant|moderate
+Morgana|The Fallen|low
+Nami|The Tidecaller|moderate
+Nasus|The Curator Of The Sands|moderate
+Nautilus|The Titan Of The Depths|moderate
+Neeko|The Curious Chameleon|moderate
+Nidalee|The Bestial Huntress|high
+Nilah|The Joy Unbound|high
+Nocturne|The Eternal Nightmare|moderate
+Nunu & Willump|The Boy And His Yeti|moderate
+Olaf|The Berserker|low
+Orianna|The Lady Of Clockwork|moderate
+Ornn|The Fire Below The Mountain|moderate
+Pantheon|The Unbreakable Spear|moderate
+Poppy|Keeper Of The Hammer|moderate
+Pyke|The Bloodharbor Ripper|moderate
+Qiyana|Empress Of The Elements|high
+Quinn|Demacia's Wings|moderate
+Rakan|The Charmer|moderate
+Rammus|The Armordillo|moderate
+Rek'Sai|The Void Burrower|low
+Rell|The Iron Maiden|low
+Renata Glasc|The Chem-Baroness|high
+Renekton|The Butcher Of The Sands|low
+Rengar|The Pridestalker|high
+Riven|The Exile|high
+Rumble|The Mechanized Menace|high
+Ryze|The Rune Mage|moderate
+Samira|The Desert Rose|moderate
+Sejuani|Fury Of The North|moderate
+Senna|The Redeemer|moderate
+Seraphine|The Starry-Eyed Songstress|low
+Sett|The Boss|low
+Shaco|The Demon Jester|high
+Shen|The Eye Of Twilight|moderate
+Shyvana|The Half-Dragon|moderate
+Singed|The Mad Chemist|moderate
+Sion|The Undead Juggernaut|moderate
+Sivir|The Battle Mistress|moderate
+Skarner|The Crystal Vanguard|moderate
+Sona|Maven Of The Strings|moderate
+Soraka|The Starchild|low
+Swain|The Noxian Grand General|high
+Sylas|The Unshackled|moderate
+Syndra|The Dark Sovereign|high
+Tahm Kench|The River King|moderate
+Taliyah|The Stoneweaver|moderate
+Talon|The Blade's Shadow|moderate
+Taric|The Shield Of Valoran|low
+Teemo|The Swift Scout|moderate
+Thresh|The Chain Warden|moderate
+Tristana|The Yordle Gunner|moderate
+Trundle|The Troll King|moderate
+Tryndamere|The Barbarian King|moderate
+Twisted Fate|The Card Master|high
+Twitch|The Plague Rat|moderate
+Udyr|The Spirit Walker|moderate
+Urgot|The Dreadnought|high
+Varus|The Arrow Of Retribution|low
+Vayne|The Night Hunter|high
+Veigar|The Tiny Master Of Evil|moderate
+Vel'Koz|The Eye Of The Void|high
+Vex|The Gloomist|low
+Vi|The Piltover Enforcer|moderate
+Viego|The Ruined King|moderate
+Viktor|The Machine Herald|high
+Vladimir|The Crimson Reaper|moderate
+Volibear|The Relentless Storm|low
+Warwick|The Uncaged Wrath Of Zaun|low
+Wukong|The Monkey King|low
+Xayah|The Rebel|moderate
+Xerath|The Magus Ascendant|high
+Xin Zhao|The Seneschal Of Demacia|low
+Yasuo|The Unforgiven|high
+Yone|The Unforgotten|high
+Yorick|Shepherd Of Souls|moderate
+Yuumi|The Magical Cat|low
+Zac|The Secret Weapon|high
+Zed|The Master Of Shadows|moderate
+Zeri|The Spark Of Zaun|moderate
+Ziggs|The Hexplosives Expert|moderate
+Zilean|The Chronokeeper|moderate
+Zoe|The Aspect Of Twilight|moderate
+Zyra|Rise Of The Thorns|moderate
