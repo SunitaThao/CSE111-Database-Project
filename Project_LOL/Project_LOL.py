@@ -82,23 +82,23 @@ def Champion(_conn, _use):
 
         if col == 'c_name':
             if col2 == 'c_nickname':
-                sql = (f"""UPDATE type SET c_name = ? WHERE c_nickname = ?;""")
+                sql = (f"""UPDATE champion SET c_name = ? WHERE c_nickname = ?;""")
             elif col2 == 'c_difficulty':
-                sql = (f"""UPDATE type SET c_name = ? WHERE c_difficulty = ?;""")
+                sql = (f"""UPDATE champion SET c_name = ? WHERE c_difficulty = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'c_nickname':
             if col2 == 'c_name':
-                sql = (f"""UPDATE type SET c_nickname = ? WHERE c_name = ?;""")
+                sql = (f"""UPDATE champion SET c_nickname = ? WHERE c_name = ?;""")
             elif col2 == 'c_difficulty':
-                sql = (f"""UPDATE type SET c_nickname = ? WHERE c_difficulty = ?;""")
+                sql = (f"""UPDATE champion SET c_nickname = ? WHERE c_difficulty = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'c_difficulty':
             if col2 == 'c_name':
-                sql = (f"""UPDATE type SET c_difficulty = ? WHERE c_name = ?;""")
+                sql = (f"""UPDATE champion SET c_difficulty = ? WHERE c_name = ?;""")
             elif col2 == 'c_nickname':
-                sql = (f"""UPDATE type SET c_difficulty = ? WHERE c_nickname = ?;""")
+                sql = (f"""UPDATE champion SET c_difficulty = ? WHERE c_nickname = ?;""")
             else:
                 Type(_conn, 'update')
         else:
@@ -200,23 +200,23 @@ def Matchups(_conn, _use):
         
         if col == 'mu_champ_name':
             if col2 == 'bad_mu_name':
-                sql = (f"""UPDATE type SET mu_champ_name = ? WHERE bad_mu_name = ?;""")
+                sql = (f"""UPDATE matchups SET mu_champ_name = ? WHERE bad_mu_name = ?;""")
             elif col2 == 'good_mu_name':
-                sql = (f"""UPDATE type SET mu_champ_name = ? WHERE good_mu_name = ?;""")
+                sql = (f"""UPDATE matchups SET mu_champ_name = ? WHERE good_mu_name = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'bad_mu_name':
             if col2 == 'mu_champ_name':
-                sql = (f"""UPDATE type SET bad_mu_name = ? WHERE mu_champ_name = ?;""")
+                sql = (f"""UPDATE matchups SET bad_mu_name = ? WHERE mu_champ_name = ?;""")
             elif col2 == 'good_mu_name':
-                sql = (f"""UPDATE type SET bad_mu_name = ? WHERE good_mu_name = ?;""")
+                sql = (f"""UPDATE matchups SET bad_mu_name = ? WHERE good_mu_name = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'good_mu_name':
             if col2 == 'mu_champ_name':
-                sql = (f"""UPDATE type SET good_mu_name = ? WHERE mu_champ_name = ?;""")
+                sql = (f"""UPDATE matchups SET good_mu_name = ? WHERE mu_champ_name = ?;""")
             elif col2 == 'bad_mu_name':
-                sql = (f"""UPDATE type SET good_mu_name = ? WHERE bad_mu_name = ?;""")
+                sql = (f"""UPDATE matchups SET good_mu_name = ? WHERE bad_mu_name = ?;""")
             else:
                 Type(_conn, 'update')
         else:
@@ -261,38 +261,38 @@ def Skins(_conn, _use):
 
         if col == 'sk_champ_name':
             if col2 == 'sk_name':
-                sql = (f"""UPDATE type SET sk_champ_name = ? WHERE sk_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_champ_name = ? WHERE sk_name = ?;""")
             elif col2 == 'sk_cost':
-                sql = (f"""UPDATE type SET sk_champ_name = ? WHERE sk_cost = ?;""")
+                sql = (f"""UPDATE skins SET sk_champ_name = ? WHERE sk_cost = ?;""")
             elif col2 == 'sk_skin_kind':
-                sql = (f"""UPDATE type SET sk_champ_name = ? WHERE sk_skin_kind = ?;""")
+                sql = (f"""UPDATE skins SET sk_champ_name = ? WHERE sk_skin_kind = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'sk_name':
             if col2 == 'sk_champ_name':
-                sql = (f"""UPDATE type SET sk_name = ? WHERE sk_champ_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_name = ? WHERE sk_champ_name = ?;""")
             elif col2 == 'sk_cost':
-                sql = (f"""UPDATE type SET sk_name = ? WHERE sk_cost = ?;""")
+                sql = (f"""UPDATE skins SET sk_name = ? WHERE sk_cost = ?;""")
             elif col2 == 'sk_skin_kind':
-                sql = (f"""UPDATE type SET sk_name = ? WHERE sk_skin_kind = ?;""")
+                sql = (f"""UPDATE skins SET sk_name = ? WHERE sk_skin_kind = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'sk_cost':
             if col2 == 'sk_champ_name':
-                sql = (f"""UPDATE type SET sk_cost = ? WHERE sk_champ_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_cost = ? WHERE sk_champ_name = ?;""")
             elif col2 == 'sk_name':
-                sql = (f"""UPDATE type SET sk_cost = ? WHERE sk_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_cost = ? WHERE sk_name = ?;""")
             elif col2 == 'sk_skin_kind':
-                sql = (f"""UPDATE type SET sk_cost = ? WHERE sk_skin_kind = ?;""")
+                sql = (f"""UPDATE skins SET sk_cost = ? WHERE sk_skin_kind = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'sk_skin_kind':
             if col2 == 'sk_champ_name':
-                sql = (f"""UPDATE type SET sk_skin_kind = ? WHERE sk_champ_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_skin_kind = ? WHERE sk_champ_name = ?;""")
             elif col2 == 'sk_name':
-                sql = (f"""UPDATE type SET sk_skin_kind = ? WHERE sk_name = ?;""")
+                sql = (f"""UPDATE skins SET sk_skin_kind = ? WHERE sk_name = ?;""")
             elif col2 == 'sk_cost':
-                sql = (f"""UPDATE type SET sk_skin_kind = ? WHERE sk_cost = ?;""")
+                sql = (f"""UPDATE skins SET sk_skin_kind = ? WHERE sk_cost = ?;""")
             else:
                 Type(_conn, 'update')
         else:
@@ -341,80 +341,80 @@ def Abilities(_conn, _use):
         
         if col == 'a_champ_name':
             if col2 == 'a_passive':
-                sql = (f"""UPDATE type SET a_champ_name = ? WHERE a_passive = ?;""")
+                sql = (f"""UPDATE abilities SET a_champ_name = ? WHERE a_passive = ?;""")
             elif col2 == 'a_qability':
-                sql = (f"""UPDATE type SET a_champ_name = ? WHERE a_qability = ?;""")
+                sql = (f"""UPDATE abilities SET a_champ_name = ? WHERE a_qability = ?;""")
             elif col2 == 'a_wability':
-                sql = (f"""UPDATE type SET a_champ_name = ? WHERE a_wability = ?;""")
+                sql = (f"""UPDATE abilities SET a_champ_name = ? WHERE a_wability = ?;""")
             elif col2 == 'a_eability':
-                sql = (f"""UPDATE type SET a_champ_name = ? WHERE a_eability = ?;""")
+                sql = (f"""UPDATE abilities SET a_champ_name = ? WHERE a_eability = ?;""")
             elif col2 == 'a_rability':
-                sql = (f"""UPDATE type SET a_champ_name = ? WHERE a_rability = ?;""")
+                sql = (f"""UPDATE abilities SET a_champ_name = ? WHERE a_rability = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'a_passive':
             if col2 == 'a_champ_name':
-                sql = (f"""UPDATE type SET a_passive = ? WHERE a_champ_name = ?;""")
+                sql = (f"""UPDATE abilities SET a_passive = ? WHERE a_champ_name = ?;""")
             elif col2 == 'a_qability':
-                sql = (f"""UPDATE type SET a_passive = ? WHERE a_qability = ?;""")
+                sql = (f"""UPDATE abilities SET a_passive = ? WHERE a_qability = ?;""")
             elif col2 == 'a_wability':
-                sql = (f"""UPDATE type SET a_passive = ? WHERE a_wability = ?;""")
+                sql = (f"""UPDATE abilities SET a_passive = ? WHERE a_wability = ?;""")
             elif col2 == 'a_eability':
-                sql = (f"""UPDATE type SET a_passive = ? WHERE a_eability = ?;""")
+                sql = (f"""UPDATE abilities SET a_passive = ? WHERE a_eability = ?;""")
             elif col2 == 'a_rability':
-                sql = (f"""UPDATE type SET a_passive = ? WHERE a_rability = ?;""")
+                sql = (f"""UPDATE abilities SET a_passive = ? WHERE a_rability = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'a_qability':
             if col2 == 'a_champ_name':
-                sql = (f"""UPDATE type SET a_qability = ? WHERE a_champ_name = ?;""")
+                sql = (f"""UPDATE abilities SET a_qability = ? WHERE a_champ_name = ?;""")
             elif col2 == 'a_passive':
-                sql = (f"""UPDATE type SET a_qability = ? WHERE a_passive = ?;""")
+                sql = (f"""UPDATE abilities SET a_qability = ? WHERE a_passive = ?;""")
             elif col2 == 'a_wability':
-                sql = (f"""UPDATE type SET a_qability = ? WHERE a_wability = ?;""")
+                sql = (f"""UPDATE abilities SET a_qability = ? WHERE a_wability = ?;""")
             elif col2 == 'a_eability':
-                sql = (f"""UPDATE type SET a_qability = ? WHERE a_eability = ?;""")
+                sql = (f"""UPDATE abilities SET a_qability = ? WHERE a_eability = ?;""")
             elif col2 == 'a_rability':
-                sql = (f"""UPDATE type SET a_qability = ? WHERE a_rability = ?;""")
+                sql = (f"""UPDATE abilities SET a_qability = ? WHERE a_rability = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'a_wability':
             if col2 == 'a_champ_name':
-                sql = (f"""UPDATE type SET a_wability = ? WHERE a_champ_name = ?;""")
+                sql = (f"""UPDATE abilities SET a_wability = ? WHERE a_champ_name = ?;""")
             elif col2 == 'a_passive':
-                sql = (f"""UPDATE type SET a_wability = ? WHERE a_passive = ?;""")
+                sql = (f"""UPDATE abilities SET a_wability = ? WHERE a_passive = ?;""")
             elif col2 == 'a_qability':
-                sql = (f"""UPDATE type SET a_wability = ? WHERE a_qability = ?;""")
+                sql = (f"""UPDATE abilities SET a_wability = ? WHERE a_qability = ?;""")
             elif col2 == 'a_eability':
-                sql = (f"""UPDATE type SET a_wability = ? WHERE a_eability = ?;""")
+                sql = (f"""UPDATE abilities SET a_wability = ? WHERE a_eability = ?;""")
             elif col2 == 'a_rability':
-                sql = (f"""UPDATE type SET a_wability = ? WHERE a_rability = ?;""")
+                sql = (f"""UPDATE abilities SET a_wability = ? WHERE a_rability = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'a_eability':
             if col2 == 'a_champ_name':
-                sql = (f"""UPDATE type SET a_eability = ? WHERE a_champ_name = ?;""")
+                sql = (f"""UPDATE abilities SET a_eability = ? WHERE a_champ_name = ?;""")
             elif col2 == 'a_passive':
-                sql = (f"""UPDATE type SET a_eability = ? WHERE a_passive = ?;""")
+                sql = (f"""UPDATE abilities SET a_eability = ? WHERE a_passive = ?;""")
             elif col2 == 'a_qability':
-                sql = (f"""UPDATE type SET a_eability = ? WHERE a_qability = ?;""")
+                sql = (f"""UPDATE abilities SET a_eability = ? WHERE a_qability = ?;""")
             elif col2 == 'a_wability':
-                sql = (f"""UPDATE type SET a_eability = ? WHERE a_wability = ?;""")
+                sql = (f"""UPDATE abilities SET a_eability = ? WHERE a_wability = ?;""")
             elif col2 == 'a_rability':
-                sql = (f"""UPDATE type SET a_eability = ? WHERE a_rability = ?;""")
+                sql = (f"""UPDATE abilities SET a_eability = ? WHERE a_rability = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'a_rability':
             if col2 == 'a_champ_name':
-                sql = (f"""UPDATE type SET a_rability = ? WHERE a_champ_name = ?;""")
+                sql = (f"""UPDATE abilities SET a_rability = ? WHERE a_champ_name = ?;""")
             elif col2 == 'a_passive':
-                sql = (f"""UPDATE type SET a_rability = ? WHERE a_passive = ?;""")
+                sql = (f"""UPDATE abilities SET a_rability = ? WHERE a_passive = ?;""")
             elif col2 == 'a_qability':
-                sql = (f"""UPDATE type SET a_rability = ? WHERE a_qability = ?;""")
+                sql = (f"""UPDATE abilities SET a_rability = ? WHERE a_qability = ?;""")
             elif col2 == 'a_wability':
-                sql = (f"""UPDATE type SET a_rability = ? WHERE a_wability = ?;""")
+                sql = (f"""UPDATE abilities SET a_rability = ? WHERE a_wability = ?;""")
             elif col2 == 'a_eability':
-                sql = (f"""UPDATE type SET a_rability = ? WHERE a_eability = ?;""")
+                sql = (f"""UPDATE abilities SET a_rability = ? WHERE a_eability = ?;""")
             else:
                 Type(_conn, 'update')
         else:
@@ -467,138 +467,138 @@ def Stats(_conn, _use):
         
         if col == 'st_champ_name':
             if col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_champ_name = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_champ_name = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_role':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_role = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_role = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_tier':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_role = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_tier = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_tier = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_pickrate':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_tier = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_pickrate = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_pickrate = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_matches':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_matches = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_matches = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_rank':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_matches = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_banrate = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_rank = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_rank = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_banrate':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_rank = ?;""")
             elif col2 == 'st_winrate':
-                sql = (f"""UPDATE type SET st_banrate = ? WHERE st_winrate = ?;""")
+                sql = (f"""UPDATE stats SET st_banrate = ? WHERE st_winrate = ?;""")
             else:
                 Type(_conn, 'update')
         elif col == 'st_winrate':
             if col2 == 'st_champ_name':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_champ_name = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_champ_name = ?;""")
             elif col2 == 'st_role':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_role = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_role = ?;""")
             elif col2 == 'st_tier':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_tier = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_tier = ?;""")
             elif col2 == 'st_pickrate':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_pickrate = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_pickrate = ?;""")
             elif col2 == 'st_matches':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_matches = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_matches = ?;""")
             elif col2 == 'st_rank':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_rank = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_rank = ?;""")
             elif col2 == 'st_banrate':
-                sql = (f"""UPDATE type SET st_winrate = ? WHERE st_banrate = ?;""")
+                sql = (f"""UPDATE stats SET st_winrate = ? WHERE st_banrate = ?;""")
             else:
                 Type(_conn, 'update')
         else:
@@ -831,7 +831,7 @@ def Q11(_conn):
     
     sql = (f"""SELECT distinct a_champ_name, a_rability
                 FROM abilities, skins
-                WHERE a_key = sk_key
+                WHERE a_champ_name = sk_champ_name
                     AND sk_skin_kind = 'legendary' or sk_skin_kind = 'ultimate';"""
         )
     cursor = _conn.cursor()
@@ -863,11 +863,11 @@ def Q12(_conn):
 def Q13(_conn):
     
     sql = (f"""SELECT c_nickname
-                FROM champion, stats, matchups
-                WHERE c_key = st_key
-                    AND c_key = mu_key
-                    AND st_tier = 'S'
-                    AND good_mu_name = 'Miss Fortune';"""
+            FROM champion, stats, matchups
+            WHERE c_name = st_champ_name
+                AND c_name = mu_champ_name
+                AND st_tier = 'S'
+                AND good_mu_name = 'Miss Fortune';"""
         )
     cursor = _conn.cursor()
     cursor.execute(sql)
@@ -883,9 +883,9 @@ def Q14(_conn):
     
     sql = (f"""SELECT t_champ_name, t_role, a_qability, bad_mu_name, st_pickrate
                 FROM type, abilities, matchups, stats
-                WHERE t_key = a_key
-                    AND a_key = mu_key
-                    AND mu_key = st_key
+                WHERE t_champ_name = a_champ_name
+                    AND a_champ_name = mu_champ_name
+                    AND mu_champ_name = st_champ_name
                     AND st_pickrate > '3.0'
                 Order by st_pickrate DESC;"""
         )
