@@ -2,7 +2,7 @@
 
 SELECT c_nickname
 FROM champion, stats, matchups
-WHERE c_key = st_key
-    AND c_key = mu_key
+WHERE c_name = st_champ_name
+    AND c_name = mu_champ_name
     AND st_tier = 'S'
     AND good_mu_name = 'Miss Fortune';

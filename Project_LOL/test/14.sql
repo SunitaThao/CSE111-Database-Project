@@ -3,8 +3,8 @@
 
 SELECT t_champ_name, t_role, a_qability, bad_mu_name, st_pickrate
 FROM type, abilities, matchups, stats
-WHERE t_key = a_key
-    AND a_key = mu_key
-    AND mu_key = st_key
+WHERE t_champ_name = a_champ_name
+    AND a_champ_name = mu_champ_name
+    AND mu_champ_name = st_champ_name
     AND st_pickrate > '3.0'
 Order by st_pickrate DESC;
