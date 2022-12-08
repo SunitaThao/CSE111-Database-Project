@@ -1083,6 +1083,7 @@ def User(_conn):
         User(_conn)
 
 def Start(_conn):
+    print("League of Legends Data\n")
     user = input("Enter 'U' for User or 'A' for Admin 'q' to quit: ")
     if user == 'A':
         Admin(_conn)
