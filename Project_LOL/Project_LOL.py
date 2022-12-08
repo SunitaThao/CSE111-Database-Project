@@ -688,56 +688,396 @@ def Q1(_conn):
         l = '{:20} {:<30}\n'.format(row[0], row[1])
         print(l)
     Start(_conn)
+
+def Q2(_conn):
+    
+    sql = (f"""SELECT sk_champ_name, sk_name
+                From skins;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q3(_conn):
+    
+    sql = (f"""SELECT c_name, c_difficulty
+                FROM champion;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q4(_conn):
+    
+    sql = (f"""SELECT t_champ_name, t_name
+                FROM type;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q5(_conn):
+    
+    sql = (f"""SELECT a_champ_name, a_passive
+                FROM abilities;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q6(_conn):
+    
+    sql = (f"""SELECT mu_champ_name, good_mu_name
+                FROM matchups;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q7(_conn):
+    
+    sql = (f"""SELECT st_champ_name, st_winrate
+                FROM stats;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q8(_conn):
+    
+    sql = (f"""SELECT c_name
+                FROM champion
+                WHERE c_difficulty = 'high';"""
+            )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q9(_conn):
+    
+    sql = (f"""SELECT sk_champ_name
+                FROM skins
+                WHERE sk_name = 'Star Guardian';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q10(_conn):
+    
+    sql = (f"""SELECT mu_champ_name
+                FROM matchups
+                WHERE bad_mu_name = 'Seraphine';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q11(_conn):
+    
+    sql = (f"""SELECT distinct a_champ_name, a_rability
+                FROM abilities, skins
+                WHERE a_key = sk_key
+                    AND sk_skin_kind = 'legendary' or sk_skin_kind = 'ultimate';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q12(_conn):
+    
+    sql = (f"""SELECT sk_champ_name, max(sk_cost)
+                FROM skins
+                GROUP by sk_champ_name;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30}\n'.format(row[0], row[1])
+        print(l)
+    Start(_conn)
+
+def Q13(_conn):
+    
+    sql = (f"""SELECT c_nickname
+                FROM champion, stats, matchups
+                WHERE c_key = st_key
+                    AND c_key = mu_key
+                    AND st_tier = 'S'
+                    AND good_mu_name = 'Miss Fortune';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q14(_conn):
+    
+    sql = (f"""SELECT t_champ_name, t_role, a_qability, bad_mu_name, st_pickrate
+                FROM type, abilities, matchups, stats
+                WHERE t_key = a_key
+                    AND a_key = mu_key
+                    AND mu_key = st_key
+                    AND st_pickrate > '3.0'
+                Order by st_pickrate DESC;"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:10} {:10} {:10} {:10} {:10}\n'.format(row[0], row[1], row[2], row[3], row[4])
+        print(l)
+    Start(_conn)
+
+def Q15(_conn):
+    
+    sql = (f"""SELECT a_wability
+                FROM abilities
+                WHERE substr(a_champ_name, 1, 1) = 'B';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q16(_conn):
+    
+    sql = (f"""SELECT distinct c_name
+                FROM champion, stats, type, skins
+                WHERE c_name = sk_champ_name
+                    AND sk_champ_name = t_champ_name
+                    AND t_champ_name = st_champ_name
+                    AND st_winrate > '50'
+                    AND st_matches > '20000'
+                    AND t_name = 'Fighter'
+                    AND substr(sk_name, 1, 6) = 'SKT T1'
+                    AND c_difficulty = 'moderate';"""
+            )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q17(_conn):
+    
+    sql = (f"""SELECT count(sk_champ_name)
+                FROM skins, stats
+                WHERE sk_champ_name = st_champ_name
+                    AND sk_name = 'Dark Star'
+                    AND st_banrate < '2';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:10}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q18(_conn):
+    
+    sql = (f"""SELECT distinct t_champ_name
+                FROM type
+                WHERE t_name = 'Mage';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
+def Q19(_conn):
+    
+    sql = (f"""SELECT mu_champ_name, c_nickname, a_eability
+                FROM matchups, champion, abilities, skins
+                WHERE mu_champ_name = c_name
+                    AND c_name = sk_champ_name 
+                    AND sk_champ_name = a_champ_name
+                    AND good_mu_name = 'Azir'
+                GRoup by mu_champ_name, c_nickname;"""
+            )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20} {:<30} {:20}\n'.format(row[0], row[1], row[2])
+        print(l)
+    Start(_conn)
+
+def Q20(_conn):
+    
+    sql = (f"""SELECT c_name
+                FROM champion, type
+                WHERE c_name = t_champ_name
+                    AND c_difficulty = 'low'
+                    AND t_role = 'jungle';"""
+        )
+    cursor = _conn.cursor()
+    cursor.execute(sql)
+    _conn.commit()
+    
+    rows = cursor.fetchall()
+    for row in rows:
+        l = '{:20}\n'.format(row[0])
+        print(l)
+    Start(_conn)
+
 def User(_conn):
-    print("Here is a list of statistics you can view from (1-20):\nWhat Champion has the highest banrate?\nList all the champions and their skins\n Print out each champion and their difficulty\nPrint out each champion and their type")
-    print("Print out each champion and their passive\nPrint out each champion and their good match up\nPrint out each champion and their winrate\nPrint out the champions with high difficulty")
-    print("Print out all the champions that have Star Guardian skins\nPrint out all the champions that have a bad match up against Seraphine\nPrint the champion and it's r ability if it has a a legendary or ultimate skin\nPrint the highest cost of each champion's skins")
-    print("Print the nickname of the champions who have a tier S and a good match up with Miss Fortune\nPrint the champion name, its role, its q ability, its bad match up, and its pickrate if it's over 3.0 in descending order of the pickrate")
-    print("Print out the w ability of all champions whose names start with 'B'\nPrint out the champion name of those who has a winrate higher than 50, over 20,000 matches, is a Fighter, has a SKT T1 skin, and is moderate difficulty")
-    print("Print how many champions have a Dark Star skin and has a banrate lower than 2\nPrint out all the champions who are mages\nPrint out the champions that have a good match up against Azir, their nickname, and their e ability\nPrint out easiest champions to play that are also junglers")
+    print("Here is a list of statistics you can view from (1-20):\n1. What Champion has the highest banrate?\n2. List all the champions and their skins.\n3. Print out each champion and their difficulty.\n4. Print out each champion and their type.")
+    print("5. Print out each champion and their passive.\n6. Print out each champion and their good match up.\n7. Print out each champion and their winrate.\n8. Print out the champions with high difficulty.")
+    print("9. Print out all the champions that have Star Guardian skins.\n10. Print out all the champions that have a bad match up against Seraphine.\n11. Print the champion and it's r ability if it has a a legendary or ultimate skin.\n12. Print the highest cost of each champion's skins.")
+    print("13. Print the nickname of the champions who have a tier S and a good match up with Miss Fortune.\n14. Print the champion name, its role, its q ability, its bad match up, and its pickrate if it's over 3.0 in descending order of the pickrate.")
+    print("15. Print out the w ability of all champions whose names start with 'B'.\n16. Print out the champion name of those who has a winrate higher than 50, over 20,000 matches, is a Fighter, has a SKT T1 skin, and is moderate difficulty.")
+    print("17. Print how many champions have a Dark Star skin and has a banrate lower than 2.\n18. Print out all the champions who are mages.\n19. Print out the champions that have a good match up against Azir, their nickname, and their e ability.\n20. Print out easiest champions to play that are also junglers.")
     i = input("\nEnter a number(1-20) for which statistic you would like to see: ")
 
     if i == '1':
-        print("What Champion has the highest banrate?")
+        print("What Champion has the highest banrate?\n")
         Q1(_conn)
     elif i == '2':
-        
+        print("List all the champions and their skins.\n")
         Q2(_conn)
     elif i == '3':
+        print("Print out each champion and their difficulty.\n")
         Q3(_conn)
     elif i == '4':
+        print("Print out each champion and their type.\n")
         Q4(_conn)
     elif i == '5':
-        Q5(conn)
+        print("Print out each champion and their passive.\n")
+        Q5(_conn)
     elif i == '6':
+        print("Print out each champion and their best match up.\n")
         Q6(_conn)
     elif i == '7':
+        print("Print out each champion and their winrate.\n")
         Q7(_conn)
     elif i == '8':
+        print("Print out the champions with high difficulty.\n")
         Q8(_conn)
     elif i == '9':
+        print("Print out all the champions that have Star Guardian skins.\n")
         Q9(_conn)
     elif i == '10':
+        print("Print out all the champions that have a bad match up against Seraphine.\n")
         Q10(_conn)
     elif i == '11':
+        print("Print the champion and it's r ability if it has a a legendary or ultimate skin.\n")
         Q11(_conn)
     elif i == '12':
+        print("Print the highest cost of each champion's skins.\n")
         Q12(_conn)
     elif i == '13':
+        print("Print the nickname of the champions who have a tier S and a good match up with Miss Fortune.\n")
         Q13(_conn)
     elif i == '14':
+        print("Print the champion name, its role, its q ability, its bad match up, and its pickrate if it's over 3.0 in descending order of the pickrate.\n")
         Q14(_conn)
     elif i == '15':
-        Q15(conn)
+        print("Print out the w ability of all champions whose names start with 'B'.\n")
+        Q15(_conn)
     elif i == '16':
+        print("Print out the champion name of those who has a winrate higher than 50, over 20,000 matches, is a Fighter, has a SKT T1 skin, and is moderate difficulty.\n")
         Q16(_conn)
     elif i == '17':
+        print("Print how many champions have a Dark Star skin and has a banrate lower than 2.\n")
         Q17(_conn)
     elif i == '18':
+        print("Print out all the champions who are mages.\n")
         Q18(_conn)
     elif i == '19':
+        print("Print out the champions that have a good match up against Azir, their nickname, and their e ability.\n")
         Q19(_conn)
     elif i == '20':
+        print("Print out easiest champions to play that are also junglers.\n")
         Q20(_conn)
     else:
         User(_conn)
